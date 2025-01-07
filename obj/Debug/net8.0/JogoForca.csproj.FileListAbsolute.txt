@@ -1,0 +1,14 @@
+C:\Users\guspassos\Desktop\Ti Guspassos\JogoForca\obj\Debug\net8.0\JogoForca.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\guspassos\Desktop\Ti Guspassos\JogoForca\obj\Debug\net8.0\JogoForca.AssemblyInfoInputs.cache
+C:\Users\guspassos\Desktop\Ti Guspassos\JogoForca\obj\Debug\net8.0\JogoForca.AssemblyInfo.cs
+C:\Users\guspassos\Desktop\Ti Guspassos\JogoForca\obj\Debug\net8.0\JogoForca.csproj.CoreCompileInputs.cache
+C:\Users\guspassos\Desktop\Ti Guspassos\JogoForca\bin\Debug\net8.0\JogoForca.exe
+C:\Users\guspassos\Desktop\Ti Guspassos\JogoForca\bin\Debug\net8.0\JogoForca.deps.json
+C:\Users\guspassos\Desktop\Ti Guspassos\JogoForca\bin\Debug\net8.0\JogoForca.runtimeconfig.json
+C:\Users\guspassos\Desktop\Ti Guspassos\JogoForca\bin\Debug\net8.0\JogoForca.dll
+C:\Users\guspassos\Desktop\Ti Guspassos\JogoForca\bin\Debug\net8.0\JogoForca.pdb
+C:\Users\guspassos\Desktop\Ti Guspassos\JogoForca\obj\Debug\net8.0\JogoForca.dll
+C:\Users\guspassos\Desktop\Ti Guspassos\JogoForca\obj\Debug\net8.0\refint\JogoForca.dll
+C:\Users\guspassos\Desktop\Ti Guspassos\JogoForca\obj\Debug\net8.0\JogoForca.pdb
+C:\Users\guspassos\Desktop\Ti Guspassos\JogoForca\obj\Debug\net8.0\JogoForca.genruntimeconfig.cache
+C:\Users\guspassos\Desktop\Ti Guspassos\JogoForca\obj\Debug\net8.0\ref\JogoForca.dll
