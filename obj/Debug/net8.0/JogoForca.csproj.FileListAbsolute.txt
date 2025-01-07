@@ -12,3 +12,4 @@ C:\Users\guspassos\Desktop\Ti Guspassos\JogoForca\obj\Debug\net8.0\refint\JogoFo
 C:\Users\guspassos\Desktop\Ti Guspassos\JogoForca\obj\Debug\net8.0\JogoForca.pdb
 C:\Users\guspassos\Desktop\Ti Guspassos\JogoForca\obj\Debug\net8.0\JogoForca.genruntimeconfig.cache
 C:\Users\guspassos\Desktop\Ti Guspassos\JogoForca\obj\Debug\net8.0\ref\JogoForca.dll
+c:\Users\guspassos\Desktop\Ti Guspassos\JogoForca\obj\Debug\net8.0\JogoForca.sourcelink.json
