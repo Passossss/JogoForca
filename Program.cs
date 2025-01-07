@@ -6,10 +6,11 @@ class Program
     static string? palavraDescoberta;
     static int numTentativas;
     static string letrasErradas = "";
+    static string espace = "";
 
     static void Main(string[] args)
     {
-        palavraDescoberta = new string('_', palavraSecreta.Length);
+        palavraDescoberta = string.Join(" ", new string('_', palavraSecreta.Length).ToCharArray());
         numTentativas = 8;
         Console.WriteLine("BEM-VINDO AO JOGO DA FORCA");
         Console.WriteLine("==========================");
@@ -22,7 +23,7 @@ class Program
             ExibirBonecoForca();
         }
 
-        if (palavraDescoberta == palavraSecreta)
+        if (palavraDescoberta.Replace(" ", "") == palavraSecreta.ToLower())
         {
             Console.WriteLine("Parabéns, você acertou a palavra secreta!");
         }
@@ -47,10 +48,10 @@ class Program
                 break;
             case 5:
                 Console.WriteLine(" |   ");
-                break; 
+                break;
             case 4:
                 Console.WriteLine(" O   ");
-                break; 
+                break;
             case 3:
                 Console.WriteLine(" O   ");
                 Console.WriteLine(" |   ");
@@ -101,20 +102,24 @@ class Program
         else
         {
             Console.WriteLine($"A letra '{let}' NÃO existe na palavra!");
-            letrasErradas += let + " ";
+            letrasErradas = letrasErradas + let + " ";
             numTentativas--;
         }
     }
     static void AtualizarPalavraDescoberta(string letra)
     {
         char[] palavraArray = palavraDescoberta.ToCharArray();
+        int index = 0;
+
         for (int i = 0; i < palavraSecreta.Length; i++)
         {
             if (palavraSecreta[i].ToString().ToLower() == letra)
             {
-                palavraArray[i] = palavraSecreta[i];
+                palavraArray[index * 2] = palavraSecreta[i];
             }
+            index++;
         }
+
         palavraDescoberta = new string(palavraArray);
     }
 }
