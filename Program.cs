@@ -115,7 +115,7 @@ class Program
         {
             if (palavraSecreta[i].ToString().ToLower() == letra)
             {
-                palavraArray[index * 2] = palavraSecreta[i];
+                palavraArray[index * 2]/* <- pular o espaco que coloquei de _*/ = palavraSecreta[i];
             }
             index++;
         }
